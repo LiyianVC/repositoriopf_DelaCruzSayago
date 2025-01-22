@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class JavaApplication5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        
+        System.out.println("CALCULAR COMISION Y SUELDO TOTAL DE VENDEDOR");
         System.out.print("Ingrese el nombre del vendedor: ");
         String nombre = scanner.nextLine();
 
@@ -23,7 +24,8 @@ public class JavaApplication5 {
 
         double comision = (venta1 + venta2 + venta3) * 0.10;
         double pagoTotal = sueldoMensual + comision;
-
+        
+        System.out.println("--------------------");
         System.out.println("Resultados:");
         System.out.println("Nombre del vendedor: " + nombre);
         System.out.println("La comisión de la venta es: " + comision);
